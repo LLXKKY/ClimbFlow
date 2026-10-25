@@ -66,6 +66,11 @@ ClimbFlow is currently in beta preparation. The core product workflow has been d
 
 Installation instructions, usage documentation, and public download information will be added as the release progresses.
 
+## Documentation
+
+- [Installation Guide](docs/installation.md)
+- [Usage Guide](docs/usage.md)
+
 ## Repository Scope
 
 This repository presents the product, workflow, screenshots, and supporting documentation. It does not include the plugin's implementation source code.
