@@ -72,9 +72,13 @@ The project has since evolved into a standalone plugin with a dedicated interfac
 
 ## Project Status
 
-ClimbFlow is currently in beta preparation. The core product workflow has been developed, and the project is moving toward broader user testing.
+ClimbFlow is currently in beta testing.
 
-Installation instructions, usage documentation, and public download information will be added as the release progresses.
+The beta package for Windows and Rhino 8 is available through GitHub Releases.
+
+The official website is being prepared. In the meantime, users can access the beta package and installation instructions through this repository.
+
+Feedback from early users will help identify issues and guide future improvements.
 
 ## Documentation
 
