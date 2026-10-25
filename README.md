@@ -1,5 +1,15 @@
 # ClimbFlow
 
+## Download
+
+**ClimbFlow Beta · Windows / Rhino 8**
+
+Download the beta package from GitHub Releases.
+
+[(https://github.com/LLXKKY/ClimbFlow/releases)]
+
+> **Beta software:** This is an early testing version. Please review generated panel layouts and exported files before fabrication or installation.
+
 **From 3D climbing wall design to panelization and installation documentation.**
 
 ClimbFlow is a Rhino 8 plugin developed from a practical need in climbing wall design. It helps organize the workflow from 3D wall geometry to panel layouts and numbered installation references.
