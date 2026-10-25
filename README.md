@@ -1,52 +1,71 @@
 # ClimbFlow
 
-**A Rhino 8 tool for climbing wall panelization and installation documentation.**
+**From 3D climbing wall design to panelization and installation documentation.**
 
-ClimbFlow is a workflow-oriented tool developed from a practical need in climbing wall design. It helps organize the process of dividing a 3D climbing wall surface into panels, arranging the panels for fabrication, and preparing visual documentation for installation.
+ClimbFlow is a Rhino 8 plugin developed from a practical need in climbing wall design. It helps organize the workflow from 3D wall geometry to panel layouts and numbered installation references.
 
-The goal is to make the transition from a 3D design model to fabrication-ready outputs more manageable.
+The project explores how automation and human review can work together to make a complex, repetitive design workflow more manageable.
 
-## Why ClimbFlow?
+## Screenshots
 
-In climbing wall design, panelization involves more than dividing a surface. Panel boundaries, material dimensions, layout adjustments, and installation references all need to work together.
+### 01. Plugin Interface
 
-ClimbFlow was developed to explore how a repeatable, partially automated workflow can reduce repetitive operations while preserving opportunities for manual inspection and adjustment.
+The ClimbFlow interface organizes the workflow into four stages, providing a structured way to move from geometry preparation to final outputs.
+
+![ClimbFlow plugin interface](screenshots/01-climbflow-ui.png)
+
+### 02. Original Climbing Wall Model
+
+The original 3D model provides the geometric foundation for the panelization workflow.
+
+![Original climbing wall model](screenshots/02-climbing-wall-model.png)
+
+### 03. Panelization and 2D Layout
+
+Individual panels are arranged within sheet boundaries to prepare a layout for downstream fabrication workflows.
+
+![Panelization and 2D layout](screenshots/03-panel-layout.png)
+
+### 04. 3D Installation Guide
+
+A numbered 3D reference helps identify individual panels and understand their positions during assembly.
+
+![3D installation guide](screenshots/04-installation-guide.png)
 
 ## Key Features
 
-- **Panelization** — Divide a climbing wall surface into individual panels.
+- **Panelization** — Divide climbing wall geometry into individual panels.
 - **Layout generation** — Arrange panel outlines within standard sheet boundaries.
-- **Manual adjustment** — Review generated layouts and adjust panel placement when needed.
-- **DXF export** — Export 2D panel layouts in DXF format for downstream fabrication workflows, including laser cutting.
-- **3D installation guide** — Provide a numbered 3D diagram to help installers identify and assemble individual panels.
+- **Manual adjustment** — Review and adjust generated layouts, or regenerate a layout when needed.
+- **DXF export** — Export 2D panel layouts for downstream fabrication workflows.
+- **3D installation documentation** — Generate a numbered visual reference for panel identification and assembly.
 
 ## Workflow
 
 1. **Prepare** — Start with a climbing wall model in Rhino 8.
-2. **Generate** — Create panel geometry and an initial sheet layout.
-3. **Review** — Inspect the results and manually adjust the layout or regenerate it when necessary.
+2. **Generate** — Create panel geometry and an initial layout.
+3. **Review** — Inspect the result, make manual adjustments, or regenerate the layout.
 4. **Export** — Produce DXF files and a numbered 3D installation reference.
 
-The workflow combines automation with human review rather than relying entirely on one-click generation.
-
-## Outputs
-
-- **DXF files** for 2D panel fabrication workflows.
-- **Numbered 3D installation diagrams** for on-site identification and assembly.
+Rather than relying entirely on one-click automation, ClimbFlow combines automated generation with opportunities for human inspection and adjustment.
 
 ## Environment
 
 - Rhino 8
 - Windows
 
+## Project Background
+
+ClimbFlow originated from a real climbing wall design workflow, where repetitive panelization and layout adjustments created an opportunity for a more structured tool.
+
+The project has since evolved into a standalone plugin with a dedicated interface, a user-facing download page in preparation, and a feedback workflow for future testing.
+
 ## Project Status
 
-ClimbFlow is currently in its beta stage. The product interface and core workflow have been developed, and the project is moving toward broader user testing.
+ClimbFlow is currently in beta preparation. The core product workflow has been developed, and the project is moving toward broader user testing.
 
-A public download page and user feedback channel are being prepared.
+Installation instructions, usage documentation, and public download information will be added as the release progresses.
 
-## Project Scope
+## Repository Scope
 
-This repository presents the project, its workflow, and supporting documentation. It does not include the plugin's implementation source code.
-
-More screenshots, installation instructions, and usage documentation will be added as the project progresses.
+This repository presents the product, workflow, screenshots, and supporting documentation. It does not include the plugin's implementation source code.
